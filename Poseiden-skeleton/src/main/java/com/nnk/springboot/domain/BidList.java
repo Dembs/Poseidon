@@ -1,15 +1,36 @@
 package com.nnk.springboot.domain;
 
-import org.springframework.beans.factory.annotation.Required;
+import jakarta.persistence.Column;
 
-import javax.persistence.*;
-import javax.validation.constraints.Digits;
-import javax.validation.constraints.NotBlank;
+
+import jakarta.persistence.Entity;
+
+
+import jakarta.persistence.Id;
+
+import jakarta.persistence.Table;
 import java.sql.Date;
 import java.sql.Timestamp;
 
 @Entity
 @Table(name = "bidlist")
 public class BidList {
+    @Id
+    @Column(name = "id")
+
+    private int id;
+
+    public BidList(String account, String type, double v) {
+    }
+
+    public Integer getBidListId() {
+        return null;
+    }
+
+    public double getBidQuantity() {
+        return 0;
+    }
+    public void setBidQuantity(double v) {
+    }
     // TODO: Map columns in data table BIDLIST with corresponding java fields
 }
