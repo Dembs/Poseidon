@@ -18,6 +18,7 @@ com\nnk\springboot\repositories\BidListRepository.class
 com\nnk\springboot\services\BidListService.class
 com\nnk\springboot\controllers\CurveController.class
 com\nnk\springboot\domain\Rating$RatingBuilder.class
+com\nnk\springboot\services\CurvePointService.class
 com\nnk\springboot\domain\Rating.class
 com\nnk\springboot\controllers\RuleNameController.class
 com\nnk\springboot\domain\CurvePoint$CurvePointBuilder.class

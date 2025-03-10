@@ -1,15 +1,14 @@
 package com.nnk.springboot.domain;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.hibernate.validator.constraints.Length;
 
 
 import java.sql.Timestamp;
 
+@Getter
+@Setter
 @Entity
 @Table(name = "curvepoint")
 @Data
@@ -26,6 +25,11 @@ public class CurvePoint {
     private Double value;
     private Timestamp creationDate;
 
-    public CurvePoint(int i, double v, double v1) {
+
+    public CurvePoint(Integer curveId, Double term, Double value) {
+        this.curveId = curveId;
+        this.term = term;
+        this.value = value;
+        this.creationDate = new Timestamp(System.currentTimeMillis());
     }
 }
