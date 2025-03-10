@@ -1,0 +1,9 @@
+com\nnk\springboot\PasswordEncodeTest.class
+com\nnk\springboot\repositories\BidTests.class
+com\nnk\springboot\repositories\CurvePointTests.class
+com\nnk\springboot\repositories\RuleTests.class
+com\nnk\springboot\controllers\BidListControllerTest.class
+com\nnk\springboot\domain\BidListTest.class
+com\nnk\springboot\repositories\RatingTests.class
+com\nnk\springboot\services\BidListServiceTest.class
+com\nnk\springboot\repositories\TradeTests.class

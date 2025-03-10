@@ -1,38 +1,31 @@
 package com.nnk.springboot.domain;
 
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.Length;
 
-import jakarta.persistence.Column;
 
-
-import jakarta.persistence.Entity;
-
-
-import jakarta.persistence.Id;
-
-
-import jakarta.persistence.Table;
 import java.sql.Timestamp;
-
 
 @Entity
 @Table(name = "curvepoint")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class CurvePoint {
     @Id
-    @Column(name = "id")
-    private int id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+    private Integer curveId;
+    private Timestamp asOfDate;
+    private Double term;
+    private Double value;
+    private Timestamp creationDate;
+
     public CurvePoint(int i, double v, double v1) {
     }
-
-    public Integer getId() {
-        return null;
-    }
-
-    public int getCurveId() {
-        return 0;
-    }
-
-    public void setCurveId(int i) {
-    }
-    // TODO: Map columns in data table CURVEPOINT with corresponding java fields
 }
