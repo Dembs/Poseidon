@@ -9,6 +9,7 @@ com\nnk\springboot\controllers\UserController.class
 com\nnk\springboot\controllers\TradeController.class
 com\nnk\springboot\domain\RuleName.class
 com\nnk\springboot\domain\CurvePoint.class
+com\nnk\springboot\services\RatingService.class
 com\nnk\springboot\domain\RuleName$RuleNameBuilder.class
 com\nnk\springboot\controllers\HomeController.class
 com\nnk\springboot\domain\User.class
