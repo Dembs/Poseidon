@@ -26,9 +26,6 @@ public class CurvePointService {
 
     @Transactional
     public CurvePoint save(CurvePoint curvePoint) {
-        if (curvePoint.getCreationDate() == null) {
-            curvePoint.setCreationDate(new Timestamp(System.currentTimeMillis()));
-        }
         return curvePointRepository.save(curvePoint);
     }
 
@@ -40,7 +37,6 @@ public class CurvePointService {
         existingPoint.setCurveId(curvePoint.getCurveId());
         existingPoint.setTerm(curvePoint.getTerm());
         existingPoint.setValue(curvePoint.getValue());
-        existingPoint.setAsOfDate(curvePoint.getAsOfDate());
 
         return curvePointRepository.save(existingPoint);
     }

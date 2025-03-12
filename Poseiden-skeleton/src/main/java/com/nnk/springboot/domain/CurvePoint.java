@@ -18,7 +18,8 @@ import java.sql.Timestamp;
 public class CurvePoint {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    @Column(name = "Id")
+    private Integer Id;
     private Integer curveId;
     private Timestamp asOfDate;
     private Double term;
