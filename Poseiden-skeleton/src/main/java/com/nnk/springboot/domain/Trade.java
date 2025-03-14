@@ -1,19 +1,16 @@
 package com.nnk.springboot.domain;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.sql.Timestamp;
 
 @Entity
 @Table(name = "trade")
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-@Builder
+@Getter
+@Setter
 public class Trade {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -39,6 +36,11 @@ public class Trade {
     private String sourceListId;
     private String side;
 
-    public Trade(String tradeAccount, String type) {
+    public Trade(){
+
+    }
+    public Trade(String account, String type) {
+        this.account = account;
+        this.type = type;
     }
 }
