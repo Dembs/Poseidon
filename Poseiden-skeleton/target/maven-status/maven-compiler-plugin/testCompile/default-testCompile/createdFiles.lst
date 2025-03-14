@@ -1,5 +1,6 @@
 com\nnk\springboot\PasswordEncodeTest.class
 com\nnk\springboot\repositories\BidTests.class
+com\nnk\springboot\controllers\RuleNameControllerTest.class
 com\nnk\springboot\controllers\CurveControllerTest.class
 com\nnk\springboot\domain\BidListTest.class
 com\nnk\springboot\services\RatingServiceTest.class
@@ -12,4 +13,5 @@ com\nnk\springboot\repositories\RuleTests.class
 com\nnk\springboot\controllers\BidListControllerTest.class
 com\nnk\springboot\repositories\RatingTests.class
 com\nnk\springboot\services\BidListServiceTest.class
+com\nnk\springboot\services\RuleNameServiceTest.class
 com\nnk\springboot\domain\RatingTests.class

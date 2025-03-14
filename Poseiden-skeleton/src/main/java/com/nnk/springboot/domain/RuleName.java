@@ -3,18 +3,16 @@ package com.nnk.springboot.domain;
 import jakarta.persistence.*;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.sql.Timestamp;
+
+@Getter
+@Setter
 @Entity
 @Table(name = "rulename")
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+
 public class RuleName {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,6 +24,16 @@ public class RuleName {
     private String sqlStr;
     private String sqlPart;
 
-    public RuleName(String ruleName, String description, String json, String template, String sql, String sqlPart) {
+    public RuleName() {
+
+    }
+
+    public RuleName(String name, String description, String json, String template, String sqlStr, String sqlPart) {
+        this.name = name;
+        this.description = description;
+        this.json = json;
+        this.template = template;
+        this.sqlStr = sqlStr;
+        this.sqlPart = sqlPart;
     }
 }
