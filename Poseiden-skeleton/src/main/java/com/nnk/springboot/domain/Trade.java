@@ -1,6 +1,9 @@
 package com.nnk.springboot.domain;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 import lombok.*;
 
 import java.sql.Timestamp;
@@ -15,9 +18,17 @@ public class Trade {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer tradeId;
+
+    @NotEmpty(message = "Account is mandatory")
     private String account;
+
+    @NotEmpty(message = "Type is mandatory")
     private String type;
+
+    @NotNull(message = "Enter a number")
+    @Min(value = 1, message = "Enter a number higher than 0")
     private Double buyQuantity;
+
     private Double sellQuantity;
     private Double buyPrice;
     private Double sellPrice;

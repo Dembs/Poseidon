@@ -1,10 +1,10 @@
 package com.nnk.springboot.domain;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 import java.sql.Timestamp;
 
 @Entity
@@ -22,6 +22,8 @@ public class BidList {
     @NotBlank(message = "Type is mandatory")
     private String type;
 
+    @NotNull(message = "Enter a number higher than 0")
+    @Min(value = 1, message = "Enter a number higher than 0")
     private Double bidQuantity;
 
     private Double askQuantity;

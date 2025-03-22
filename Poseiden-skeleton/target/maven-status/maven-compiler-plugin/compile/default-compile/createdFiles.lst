@@ -5,7 +5,7 @@ com\nnk\springboot\services\TradeService.class
 com\nnk\springboot\domain\BidList.class
 com\nnk\springboot\controllers\LoginController.class
 com\nnk\springboot\domain\Trade.class
-com\nnk\springboot\config\SpringSecurityConfig.class
+com\nnk\springboot\security\SpringSecurityConfig.class
 com\nnk\springboot\repositories\UserRepository.class
 com\nnk\springboot\controllers\UserController.class
 com\nnk\springboot\controllers\TradeController.class
@@ -13,6 +13,7 @@ com\nnk\springboot\domain\RuleName.class
 com\nnk\springboot\domain\CurvePoint.class
 com\nnk\springboot\services\RatingService.class
 com\nnk\springboot\controllers\HomeController.class
+com\nnk\springboot\security\SpringSecurityConfig$1.class
 com\nnk\springboot\services\RuleNameService.class
 com\nnk\springboot\domain\User.class
 com\nnk\springboot\repositories\TradeRepository.class
