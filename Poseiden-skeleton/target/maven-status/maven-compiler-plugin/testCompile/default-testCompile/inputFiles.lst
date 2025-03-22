@@ -4,6 +4,7 @@ C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\c
 C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\controllers\RuleNameControllerTest.java
 C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\services\CurvePointServiceTest.java
 C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\repositories\CurvePointTests.java
+C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\security\AuthenticationTest.java
 C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\domain\CurvePointTest.java
 C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\services\RuleNameServiceTest.java
 C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\domain\TradeTest.java
@@ -11,7 +12,6 @@ C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\c
 C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\repositories\RuleTests.java
 C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\domain\BidListTest.java
 C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\services\TradeServiceTest.java
-C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\security\LogInSecurityTest.java
 C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\controllers\RatingControllerTest.java
 C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\repositories\RatingTests.java
 C:\Users\demba\OneDrive\Desktop\OC\P7\Poseidon\Poseiden-skeleton\src\test\java\com\nnk\springboot\services\UserServiceTest.java
